@@ -168,4 +168,4 @@ def main(page):
         calc
     )
 
-ft.app(port=8080, target=main)
+ft.app(port=8080, target=main, view = ft.AppView.WEB_BROWSER)
