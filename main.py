@@ -168,4 +168,4 @@ def main(page):
         calc
     )
 
-ft.app(target=main)
+ft.app(port=8080, target=main)
