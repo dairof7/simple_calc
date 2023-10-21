@@ -162,7 +162,7 @@ class CalculatorApp(UserControl):
         )
 
 def main(page):
-
+    page.title = "Simple-Calc App"
     calc = CalculatorApp()
     page.add(
         calc
