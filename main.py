@@ -82,7 +82,7 @@ class CalculatorApp(UserControl):
             res = str(res)
             if res[-2:] == '.0':
                 res = int(res[:-2])
-            print(res)
+            # print(res)
         self.result.value = res
         self.to_operate = False
     def build(self): 
