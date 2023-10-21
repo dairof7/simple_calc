@@ -53,6 +53,10 @@ class CalculatorApp(UserControl):
             self.num1 = self.result.value
         if value == 'reset':
             self.reset()
+        if value == '.':
+            if self.result.value[-1] != '.':
+                self.result.value += value
+        
         if value == '=' and self.to_operate == True:
             self.operate()
         self.update()
